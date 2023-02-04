@@ -6,13 +6,28 @@ $(document).ready(function(){
         nextArrow: '<button type="button" class="slick-next"><img src="icons/right.png"></img> </button>',
         responsive: [
             {
-                breakpoint: 768,
-                settings: {
-                    dots: true,
-                    arrows: false
-      } 
+              breakpoint: 991,
+              settings: {
+                dots: false,
+                arrows: false
+              }
+            },
+            {
+              breakpoint: 767,
+              settings: {
+                dots: false,
+                arrows: false
+              }
+            },
+            {
+              breakpoint:  575,
+              settings: {
+                dots: false,
+                arrows: false
+              }
             }
-        ]
+
+          ]
     })
   });
       
